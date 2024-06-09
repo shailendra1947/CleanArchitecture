@@ -1,0 +1,29 @@
+USE [EmployeeDB0906]
+GO
+
+/****** Object:  Table [dbo].[Employee]    Script Date: 09-06-2024 15:00:00 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Employee](
+	[EmployeeId] [int] IDENTITY(1,1) NOT NULL,
+	[FirstName] [varchar](50) NULL,
+	[LastName] [varchar](50) NULL,
+	[DateOfBirth] [datetime] NULL,
+	[PhoneNumber] [varchar](50) NULL,
+	[Email] [varchar](50) NULL
+) ON [PRIMARY]
+GO
+
+
+
+{
+  "firstName": "JJMJKSB",
+  "lastName": "JKSBJJM",
+  "dateOfBirth": "2024-06-09",
+  "phoneNumber": "9898989",
+  "email": "ss@g.com"
+}
